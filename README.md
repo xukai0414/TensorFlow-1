@@ -1,6 +1,13 @@
-# TensorFlow
-This Repository is myself Study and Notes
-    #----------------------------基本文件操作------------------------#
+> __这不是一篇教程,这是学习过程的一个记录,初次使用GitHub的小白请移步文章末尾的参考链接,__
+>
+> 1. 先了解Git是什么东西
+> 2. Git的工作流程
+> 3. 操作Git
+> 4. 练习使用
+> 5. 边用边学
+
+```python
+#----------------------------基本文件操作------------------------#
 git　init #初始化本地仓库，一般只要执行一次就可以了
 """
 	＃１．未跟踪的文件，就是直接建立的文件,工作区，如：mkdir filename
@@ -43,3 +50,23 @@ git log --pretty=oneline #查看版本号
 git reset --hard HEAD~1  #首先回到某个版本,如果是当前版本提交不需要这一步骤
 git tag 1.0.0 ab2e1d63ff #打标签
 git pull origin 1.0.0 #推送到服务器
+```
+
+
+
+![img](https://img-blog.csdn.net/20170713092225478?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzAwNTc5MQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
+
+参考:
+
+[非常好的初级教程](http://www.bootcss.com/p/git-guide/)
+
+[官方文档](https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%AE%B0%E5%BD%95%E6%AF%8F%E6%AC%A1%E6%9B%B4%E6%96%B0%E5%88%B0%E4%BB%93%E5%BA%93)
+
+[Git实例分析一](https://blog.csdn.net/itgungnir/article/details/53031905)
+
+[Git实例分析二](https://blog.csdn.net/u013005791/article/details/75043443)
+
+[Git实例教程三](https://www.jianshu.com/p/715417b93991)
+
+
+
